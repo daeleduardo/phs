@@ -1,0 +1,81 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font: 1rem 'Fira Sans', sans-serif;
+    background-color: gainsboro;
+}
+
+.header{
+    background-color: black;
+    background-image: linear-gradient(black, lightgrey);
+    color:white;
+    height: 120px;    
+    margin-top: 0px;
+    border-bottom: 10px solid grey;
+}
+
+.header span{
+
+    font-size: 26px;
+    vertical-align: middle;
+    margin-left: 25.5%;
+    padding-top:8% ;
+}
+
+.form form{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -1.6px;
+}
+
+.form form fieldset{
+    background-color: white;
+    margin: 0;
+}
+
+.form form span {
+    color:gray;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.form-group label {
+    flex: none;
+    display: block;
+    width: 125px;
+}
+.form-group label.right-inline {
+    text-align: right;    
+    padding-right: 8px;
+    padding-left: 10px;
+    width: auto;
+}
+
+.form-group .input-control {
+    flex: 1 1 auto;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    padding: 4px;
+    margin-top: -4px;
+}
+
+button {
+    padding: 5px 15px;
+    margin: 5px;
+    min-width: 100px;
+    margin-left: 125px;
+}
+
+#errors {
+    color:brown;
+    font-weight: bold;
+}
