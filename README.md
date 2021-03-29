@@ -38,4 +38,15 @@ As mensagem de erro oriundas do frontend irão aparece na tela em forma de pop, 
 
 
 
+### Banco de dados:
+
+Para o banco de dados criado em SQL Server, há os seguintes scripts:
+* Criar o banco de dados e suas estruturas:
+`01_create.sql`
+* Executar os testes (procedure de inserção, atualização e visualização dos dados):
+`02_test.sql`
+
+
+
+
 
